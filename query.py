@@ -2,8 +2,6 @@ import json
 
 import psycopg2
 
-from subprocess imprt cmd
-
 if __name__ == "__main__":
     conn = psycopg2.connect("host=localhost dbname=postgres user=postgres password=postgres")
     cur = conn.cursor()
